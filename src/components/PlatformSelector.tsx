@@ -28,7 +28,7 @@ const PlatformSelector = ({ selectedPlatform, onSelectPlatform }: Props) => {
         </MenuList>
       </Menu>
       {selectedPlatform && (
-        <Button onClick={() => onSelectPlatform(null)}>
+        <Button ml={2} onClick={() => onSelectPlatform(null)}>
           <BsX />
         </Button>
       )}
